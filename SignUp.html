@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hexa Hive | Sign-Up</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Images/favicon-32x32.png"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      class="press-img"
+      src="https://kit.fontawesome.com/1b70fa0eff.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      class="press-img"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2rem;
+      }
+
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        min-height: 60vh;
+        align-items: center;
+        justify-content: center;
+      }
+      .btn {
+        background-color: rgb(30, 130, 83);
+        border-radius: 30px;
+        border: 1px solid rgb(73, 186, 160);
+        padding: 0.2rem 0.7rem;
+        font-size: 1rem;
+      }
+
+      .btn:hover {
+        background-color: rgb(73, 186, 154);
+        box-shadow: 0 2px 4px 0 rgb(30, 130, 118), 0 3px 10px 0 rgb(30, 130, 80);
+        border: none;
+      }
+
+      form {
+        width: 60%;
+        margin: 20px auto;
+      }
+
+      .form-label {
+        color: rgb(12, 78, 44);
+      }
+
+      .form-check-input:checked {
+        background-color: rgb(73, 186, 137);
+        border-color: rgb(73, 186, 154);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="/">Hexa Hive</a>
+      </div>
+
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#policies">Policies</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="./login.html"><button class="login">Sign In</button></a>
+        </li>
+        <li>
+          <a href="./signup.html"><button class="signup">Sign Up</button></a>
+        </li>
+      </ul>
+
+      <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="container mt-3 login-form">
+        <h3
+          style="
+            text-align: center;
+            color: rgb(3, 63, 31);
+            font-size: 1.5rem;
+            text-shadow: 1px 1px #525151;
+          "
+        >
+          HexaHive Insurance Sign Up
+        </h3>
+
+        <form action="" method="post" id="form">
+          <div class="mb-3 mt-3">
+            <label for="uname" class="form-label">Username:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="uname"
+              placeholder="Enter username"
+              name="uname"
+            />
+
+            <div class="error"></div>
+          </div>
+
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">E-mail Id</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter Mail Id"
+              name="email"
+            />
+
+            <div class="error"></div>
+          </div>
+
+          <div class="mb-3">
+            <label for="pswd" class="form-label">Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pswd"
+              placeholder="Enter password"
+              name="pswd"
+            />
+
+            <div class="error"></div>
+          </div>
+
+          <div class="mb-3">
+            <label for="pswd2" class="form-label">Confirm password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pswd2"
+              placeholder="Renter password"
+              name="pswd2"
+            />
+
+            <div class="error"></div>
+          </div>
+          <div class="form-check mb-3">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="myCheck"
+              name="remember"
+              required
+            />
+            <label class="form-check-label" for="myCheck"
+              >I agree on the mentioned terms.</label
+            >
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Check this checkbox to continue.</div>
+          </div>
+          <div class="center" style="text-align: center">
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <section id="footer">
+      <div class="container">
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+        >
+          <div class="col mb-3">
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            >
+              <img src="Images/favicon.ico" alt="" />
+            </a>
+            <p class="text-body-secondary">© 2023 HexaHive</p>
+          </div>
+
+          <div class="col mb-3"></div>
+
+          <div class="col mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Policies</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Privacy policy</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </body>
+  <script>
+    const menu = document.querySelector(".menu");
+    const menuList = document.querySelector("ul");
+    menu.addEventListener("click", () => {
+      menuList.classList.toggle("showmenu");
+    });
+  </script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script src="Script.js"></script>
+</html>

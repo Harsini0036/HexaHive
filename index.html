@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hexa Hive | Health Insurance</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Images/favicon-32x32.png"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      class="press-img"
+      src="https://kit.fontawesome.com/1b70fa0eff.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      class="press-img"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="./index.html">Hexa Hive</a>
+      </div>
+
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#policies">Policies</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="./login.html"><button class="login">Sign In</button></a>
+        </li>
+        <li>
+          <a href="./signup.html"><button class="signup">Sign Up</button></a>
+        </li>
+      </ul>
+
+      <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="my-carousel">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active carousel-img carousel1">
+              <div class="content">
+                <h1>Transparent Comparisons</h1>
+                <p>
+                  Easily compare a variety of health insurance plans side by
+                  side. Our website provides transparent and easy-to-understand
+                  information, empowering you to make informed decisions about
+                  coverage, costs, and benefits.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item carousel-img carousel2">
+              <div class="content">
+                <h1>Expert Guidance</h1>
+                <p>
+                  Connect with experienced health insurance advisors who offer
+                  personalized consultations to help you navigate the
+                  complexities of health insurance. Benefit from their knowledge
+                  to find a plan tailored to your unique needs and preferences.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item carousel-img carousel3">
+              <div class="content">
+                <h1>Interactive Assistance</h1>
+                <p>
+                  Hexa Hive's chatbot enhances the user experience on the health
+                  insurance advisor website by providing real-time, interactive
+                  assistance. Users can ask questions, receive instant answers,
+                  and navigate through the complexities of health insurance with
+                  ease, ensuring a more engaging and informative interaction.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="about-section" id="about">
+        <h2>About Us</h2>
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 about-content">
+            <p>
+              Welcome to Hexa Hive Medical Health Insurance Claim Advisors,
+              where we specialize in guiding patients through the often
+              intricate process of insurance claims. Our team of dedicated
+              advisors is committed to simplifying the journey, ensuring that
+              you receive the maximum benefits from your medical insurance. With
+              a focus on transparency and personalized support, we strive to
+              empower patients by demystifying claim procedures and advocating
+              for their rightful coverage. Trust Hexa Hive to be your reliable
+              partner in navigating the complexities of medical insurance
+              claims, promoting your peace of mind during challenging times.
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-12 about-img">
+            <img src="Images/about.jpg" alt="Hexa Hive about Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="policies" class="policies-section">
+        <h2>Our Policies</h2>
+        <p>
+          Hexa Hive offers a range of health insurance policies tailored to
+          diverse needs. Our Gold Policy provides comprehensive coverage at
+          competitive premiums, ensuring essential healthcare needs are met
+          affordably. The Silver Policy strikes a balance between affordability
+          and comprehensive coverage, while the Platinum Policy offers premium
+          protection with enhanced hospital care and specialized treatments for
+          optimal wellness.
+        </p>
+        <div class="row policy-container">
+          <div class="col-lg-4 col-sm-12 about-img">
+            <img src="Images/policies.jpg" alt="Hexa Hive about Image" />
+          </div>
+          <div class="col-lg-8 col-sm-12 policies-content">
+            <h4>Platinum Policy</h4>
+            <p>
+              Comprehensive coverage for essential healthcare needs with
+              competitive premiums.
+            </p>
+            <h4>Gold Policy</h4>
+            <p>
+              Striking a balance between affordability and comprehensive
+              coverage for medical expenses.
+            </p>
+            <h4>Silver Policy</h4>
+            <p>
+              Premium protection offering enhanced hospital care and specialized
+              treatments for optimal wellness.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact1">
+          <p>
+            For personalized assistance and expert guidance on your insurance
+            needs, reach out to Hexa Hive Insurance Advisors.
+          </p>
+
+          <div class="social-icons">
+            <div class="row">
+              <div class="col-md-6 social-icon">
+                <i
+                  class="fa-solid fa-square-envelope fa-2xl"
+                  style="color: #5bbb95"
+                ></i>
+                <a href="mailto:hexahive@gmail.com">Connect through mail</a>
+              </div>
+              <div class="col-md-6 social-icon">
+                <i
+                  class="fa-brands fa-linkedin fa-2xl"
+                  style="color: #5bbb89"
+                ></i>
+                <a href="#">Connect through LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="footer">
+      <div class="container">
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+        >
+          <div class="col mb-3">
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            >
+              <img
+                src="Images/favicon-96x96.png"
+                alt="HexaHive Icon"
+                style="border-radius: 50%; height: 50px; width: 50px"
+              />
+            </a>
+            <p class="text-body-secondary">© 2023 HexaHive</p>
+          </div>
+
+          <div class="col mb-3"></div>
+
+          <div class="col mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Policies</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Claims</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Renewals</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Benefits</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Blog</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Downloads</a
+                >
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </body>
+  <script>
+    const menu = document.querySelector(".menu");
+    const menuList = document.querySelector("ul");
+    menu.addEventListener("click", () => {
+      menuList.classList.toggle("showmenu");
+    });
+  </script>
+
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "8f54b952-3d11-40ff-b1e5-aa77c54150a8", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "24f2b53f-4a83-48d5-8838-d018654c9a1b", // The ID of your service instance.
+      onLoad: async (instance) => {
+        await instance.render();
+      },
+    };
+    setTimeout(function () {
+      const t = document.createElement("script");
+      t.src =
+        "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+        (window.watsonAssistantChatOptions.clientVersion || "latest") +
+        "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>
